@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastReceipt.Client", "src\FastReceipt.Client\FastReceipt.Client.csproj", "{4E4BC459-9D0A-49BA-B566-7527C33C7FA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastReceipt.Demo.Server", "demo\FastReceipt.Demo.Server\FastReceipt.Demo.Server.csproj", "{E8DC22F7-C32F-4ABA-9D30-0E66831F9523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F031CC8A-F2B8-4C5E-B7C4-BCD823EF9B50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{449BF185-3AB6-4923-9036-A0759DAD185E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E4BC459-9D0A-49BA-B566-7527C33C7FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E4BC459-9D0A-49BA-B566-7527C33C7FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E4BC459-9D0A-49BA-B566-7527C33C7FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E4BC459-9D0A-49BA-B566-7527C33C7FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8DC22F7-C32F-4ABA-9D30-0E66831F9523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8DC22F7-C32F-4ABA-9D30-0E66831F9523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8DC22F7-C32F-4ABA-9D30-0E66831F9523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8DC22F7-C32F-4ABA-9D30-0E66831F9523}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E4BC459-9D0A-49BA-B566-7527C33C7FA4} = {F031CC8A-F2B8-4C5E-B7C4-BCD823EF9B50}
+		{E8DC22F7-C32F-4ABA-9D30-0E66831F9523} = {449BF185-3AB6-4923-9036-A0759DAD185E}
+	EndGlobalSection
+EndGlobal
